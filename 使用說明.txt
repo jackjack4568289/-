@@ -1,0 +1,17 @@
+開啟 xampp (下載：https://www.apachefriends.org/zh_tw/index.html)
+管理員身分執行 XAMPP Control Panel
+點 Apache 和 MySQL 的 Start
+點 MySQL 的 Admin 開啟 phpMyAdmin 介面
+建立資料庫 testdb
+	建立使用者
+		帳號：hj
+		主機名稱：localhost
+		密碼：test1234
+賦予使用者 hj 資料庫 testdb 的完整權限 (ALL)
+進入資料庫 testdb 並匯入 python_example  資料夾的下 .sql 檔
+
+進入 python_example 資料夾
+執行安裝命令 pip3 install -r requirements.txt
+安裝 pip install python-dotenv
+運行 flask run
+訪問 http://localhost:5000/ 
