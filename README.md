@@ -52,4 +52,3 @@ updateDB.py 為 預計可能用到的sql指令
 退選 deleteCourse(NID, CourseID, conn)
 
 ......etc
-我們使用了老師的 python_example.py ，並修改其功能，讓其有以下功能
